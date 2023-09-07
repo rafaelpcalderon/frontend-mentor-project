@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:wght@100&display=swap');
 
-body{
+body {
     background-color: hsl(30, 38%, 92%);
 }
 
-.imagem{
+.imagem {
     width: 460px;
-    height:  701px;
+    height: 701px;
     position: relative;
     bottom: 687px;
     object-fit: cover;
-    border-radius: 20px 2px 2px 20px; 
+    border-radius: 20px 2px 2px 20px;
 }
 
-main{
+main {
     border-radius: 20px;
     width: 900px;
     height: 700px;
@@ -24,39 +24,39 @@ main{
     background-color: white;
 }
 
-.product{
+.product {
     text-align: right;
     position: relative;
     right: 298px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-size: 20px;
     padding: 20px;
-    
+
 }
 
-.title{
+.title {
     text-align: left;
     font-size: 40px;
     position: relative;
-    left:  480px;
+    left: 480px;
     align-items: baseline;
     margin: 20px;
-    
+
 
 }
 
-.description{
+.description {
     text-align: left;
     position: relative;
-    left:  445px;
+    left: 445px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     margin: 60px;
     font-weight: 600;
 }
 
-.prices-box{
+.prices-box {
     text-align: left;
     position: relative;
     left: 490px;
@@ -64,12 +64,12 @@ main{
     width: 300px;
     height: 60px;
     display: inline-block;
-    display: flex; 
+    display: flex;
     align-items: center;
 
 }
 
-.main-price{
+.main-price {
     color: darkcyan;
     font-size: 45px;
     position: relative;
@@ -78,7 +78,7 @@ main{
 
 }
 
-.subprice{
+.subprice {
     text-decoration: line-through;
     position: relative;
     left: 50px;
@@ -87,7 +87,7 @@ main{
     font-weight: 200;
 }
 
-.container{
+.container {
     text-align: center;
     font-size: 25px;
     position: relative;
@@ -98,10 +98,10 @@ main{
     height: 65px;
     background-color: hsl(158, 36%, 37%);
     color: white;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.cart{
+.cart {
     position: relative;
     left: 605px;
     bottom: 75px;
@@ -112,7 +112,7 @@ main{
 
 }
 
-button{
+button {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -136,16 +136,12 @@ button:hover {
     transform: scale(1.05);
 }
 
-.buying-cart{
+.buying-cart {
     position: relative;
     bottom: 40px;
     left: 550px;
     width: 40px;
     height: 40px;
     filter: url('svg#whitescale')';
+
 }
-
-
-
-
-
